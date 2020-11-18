@@ -1,0 +1,14 @@
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.deps.json
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.AssemblyInfoInputs.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.AssemblyInfo.cs
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DO.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\bin\Debug\netcoreapp3.1\CaprisMedica.DO.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.csprojAssemblyReference.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.csproj.CopyComplete
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.Repository\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.csproj.CoreCompileInputs.cache
