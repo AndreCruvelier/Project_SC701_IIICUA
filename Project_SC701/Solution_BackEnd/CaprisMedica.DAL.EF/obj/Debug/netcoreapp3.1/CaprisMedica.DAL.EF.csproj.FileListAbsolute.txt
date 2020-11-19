@@ -1,0 +1,15 @@
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.deps.json
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.csprojAssemblyReference.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.AssemblyInfoInputs.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.AssemblyInfo.cs
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.runtimeconfig.json
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.runtimeconfig.dev.json
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.genruntimeconfig.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.csproj.CoreCompileInputs.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DO.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\bin\Debug\netcoreapp3.1\CaprisMedica.DO.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.csproj.CopyComplete
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL.EF\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.pdb
