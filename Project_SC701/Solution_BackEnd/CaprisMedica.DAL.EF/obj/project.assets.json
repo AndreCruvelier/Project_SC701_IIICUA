@@ -5766,40 +5766,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acruv\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Francinny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\CaprisMedica.DAL.EF.csproj",
+      "projectUniqueName": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\CaprisMedica.DAL.EF.csproj",
       "projectName": "CaprisMedica.DAL.EF",
-      "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\CaprisMedica.DAL.EF.csproj",
-      "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-      "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\obj\\",
+      "projectPath": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\CaprisMedica.DAL.EF.csproj",
+      "packagesPath": "C:\\Users\\Francinny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DAL.EF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Francinny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DO\\CaprisMedica.DO.csproj": {
-              "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DO\\CaprisMedica.DO.csproj"
+            "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DO\\CaprisMedica.DO.csproj": {
+              "projectPath": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution_BackEnd\\CaprisMedica.DO\\CaprisMedica.DO.csproj"
             }
           }
         }

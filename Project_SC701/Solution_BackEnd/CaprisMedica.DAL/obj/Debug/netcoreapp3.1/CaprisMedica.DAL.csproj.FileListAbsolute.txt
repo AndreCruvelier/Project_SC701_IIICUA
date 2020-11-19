@@ -17,3 +17,22 @@ E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_Back
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DO.pdb
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.csproj.CopyComplete
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.genruntimeconfig.cache
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.deps.json
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.runtimeconfig.json
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.runtimeconfig.dev.json
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.dll
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.pdb
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.dll
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.dll
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DO.dll
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.EF.pdb
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DAL.Repository.pdb
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\bin\Debug\netcoreapp3.1\CaprisMedica.DO.pdb
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.csprojAssemblyReference.cache
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.AssemblyInfoInputs.cache
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.AssemblyInfo.cs
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.csproj.CopyComplete
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.dll
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.pdb
+C:\Users\Francinny\Documents\DIANA\U\3 Cuatri 2020\PROGRA 5\FINAL\Project_SC701\Solution_BackEnd\CaprisMedica.DAL\obj\Debug\netcoreapp3.1\CaprisMedica.DAL.genruntimeconfig.cache

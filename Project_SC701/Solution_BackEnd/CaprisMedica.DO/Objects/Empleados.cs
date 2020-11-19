@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CaprisMedica.DO.Objects
 {
@@ -11,6 +12,7 @@ namespace CaprisMedica.DO.Objects
             Solicitudes = new HashSet<Solicitudes>();
         }
 
+        [ForeignKey("TipoId")]
         public int? TipoId { get; set; }
         public long EmpleadoCedula { get; set; }
         public string EmpleadoNombre { get; set; }
@@ -19,6 +21,7 @@ namespace CaprisMedica.DO.Objects
         public string EmpleadoCorreo { get; set; }
 
         public virtual TipoCedula Tipo { get; set; }
+
         public virtual Usuarios Usuarios { get; set; }
         public virtual ICollection<Departamentos> Departamentos { get; set; }
         public virtual ICollection<Solicitudes> Solicitudes { get; set; }
