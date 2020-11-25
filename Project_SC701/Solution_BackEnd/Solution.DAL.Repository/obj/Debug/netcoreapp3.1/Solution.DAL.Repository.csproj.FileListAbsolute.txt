@@ -1,0 +1,70 @@
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\greiv\Source\Repos\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\greiv\Documents\Universidad\Ingienería en Sistemas\Proga Avanzada Web\Recuperacion_examen1\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Temp\SC701_IIICUA20_M-master\SC701-P1\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Temp\Proyecto\Proyecto\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
