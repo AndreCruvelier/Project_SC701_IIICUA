@@ -8794,26 +8794,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francinny\\.nuget\\packages\\": {}
+    "C:\\Users\\acruv\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
       "projectName": "CaprisMedica.UI",
-      "projectPath": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
-      "packagesPath": "C:\\Users\\Francinny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francinny\\Documents\\DIANA\\U\\3 Cuatri 2020\\PROGRA 5\\FINAL\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
+      "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
+      "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Francinny\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
