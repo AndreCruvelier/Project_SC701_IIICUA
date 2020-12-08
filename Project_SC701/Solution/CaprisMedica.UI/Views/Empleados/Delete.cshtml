@@ -1,0 +1,57 @@
+﻿@model CaprisMedica.UI.Models.Empleados
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Empleados</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoNombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoNombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoPrimerA)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoPrimerA)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoSegundoA)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoSegundoA)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoCorreo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoCorreo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoEstado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoEstado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tipo.TipoDescripcion)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EmpleadoCedula" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,131 @@
+﻿@model IEnumerable<CaprisMedica.UI.Models.Solicitudes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SolicitudJefatura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaReporte)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraEntrada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraSalida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoHora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadHoras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SolicitudMotivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MotivoDetalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SolicitudRepuestos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EquipoDetenido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirmaCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoCedulaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provincia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoTrabajo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SolicitudJefatura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaReporte)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraEntrada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoHora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadHoras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SolicitudMotivo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotivoDetalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SolicitudRepuestos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EquipoDetenido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirmaCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.ClienteCorreo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departamento.DeparatamentoNombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoCedulaNavigation.EmpleadoCedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipo.EquipoEstado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Provincia.ProvinciaNombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoTrabajo.TipoTrabajoEstado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SolicitudId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SolicitudId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SolicitudId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

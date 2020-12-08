@@ -1,0 +1,59 @@
+﻿@model CaprisMedica.UI.Models.Empleados
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Empleados</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TipoId" class="control-label"></label>
+                <select asp-for="TipoId" class="form-control" asp-items="ViewBag.TipoId"></select>
+                <span asp-validation-for="TipoId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="EmpleadoCedula" />
+            <div class="form-group">
+                <label asp-for="EmpleadoNombre" class="control-label"></label>
+                <input asp-for="EmpleadoNombre" class="form-control" />
+                <span asp-validation-for="EmpleadoNombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpleadoPrimerA" class="control-label"></label>
+                <input asp-for="EmpleadoPrimerA" class="form-control" />
+                <span asp-validation-for="EmpleadoPrimerA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpleadoSegundoA" class="control-label"></label>
+                <input asp-for="EmpleadoSegundoA" class="form-control" />
+                <span asp-validation-for="EmpleadoSegundoA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpleadoCorreo" class="control-label"></label>
+                <input asp-for="EmpleadoCorreo" class="form-control" />
+                <span asp-validation-for="EmpleadoCorreo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpleadoEstado" class="control-label"></label>
+                <input asp-for="EmpleadoEstado" class="form-control" />
+                <span asp-validation-for="EmpleadoEstado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

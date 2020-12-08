@@ -13,6 +13,7 @@ namespace CaprisMedica.UI.Models
 
         public int EquipoId { get; set; }
         public string EquipoNombre { get; set; }
+        public string EquipoEstado { get; set; }
 
         public virtual ICollection<EquipoXDepartamento> EquipoXDepartamento { get; set; }
         public virtual ICollection<Solicitudes> Solicitudes { get; set; }

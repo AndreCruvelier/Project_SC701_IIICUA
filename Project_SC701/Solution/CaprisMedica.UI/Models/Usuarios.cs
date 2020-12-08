@@ -5,11 +5,10 @@ namespace CaprisMedica.UI.Models
 {
     public partial class Usuarios
     {
-        public long Usuario { get; set; }
+        public string Usuario { get; set; }
         public int RolId { get; set; }
-        public string UsuarioContraseA { get; set; }
+        public string UsuarioContraseña { get; set; }
 
         public virtual Roles Rol { get; set; }
-        public virtual Empleados UsuarioNavigation { get; set; }
     }
 }

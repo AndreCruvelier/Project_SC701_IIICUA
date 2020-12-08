@@ -12,6 +12,7 @@ namespace CaprisMedica.UI.Models
 
         public int TipoTrabajoId { get; set; }
         public string TipoTrabajoNombre { get; set; }
+        public string TipoTrabajoEstado { get; set; }
 
         public virtual ICollection<Solicitudes> Solicitudes { get; set; }
     }

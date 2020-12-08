@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CaprisMedica.UI.Models.Empleados>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoNombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoPrimerA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoSegundoA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoCorreo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpleadoEstado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoNombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoPrimerA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoSegundoA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoCorreo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoEstado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo.TipoDescripcion)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EmpleadoCedula">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EmpleadoCedula">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EmpleadoCedula">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

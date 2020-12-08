@@ -1,0 +1,123 @@
+﻿@model CaprisMedica.UI.Models.Solicitudes
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Solicitudes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SolicitudJefatura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SolicitudJefatura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaReporte)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FechaReporte)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraEntrada)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HoraEntrada)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraSalida)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HoraSalida)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoHora)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoHora)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CantidadHoras)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CantidadHoras)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SolicitudMotivo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SolicitudMotivo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MotivoDetalle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MotivoDetalle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SolicitudRepuestos)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SolicitudRepuestos)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipoDetenido)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EquipoDetenido)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirmaCliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirmaCliente)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.ClienteCorreo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Departamento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Departamento.DeparatamentoNombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpleadoCedulaNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpleadoCedulaNavigation.EmpleadoCedula)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Equipo.EquipoEstado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Provincia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Provincia.ProvinciaNombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoTrabajo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoTrabajo.TipoTrabajoEstado)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="SolicitudId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
