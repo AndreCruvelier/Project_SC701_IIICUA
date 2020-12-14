@@ -68,3 +68,17 @@ E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_Back
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
 E:\acruv\Documents\source\repos\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb

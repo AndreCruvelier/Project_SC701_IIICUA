@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj": {}
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj": {}
   },
   "projects": {
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
         "projectName": "Solution.API",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,15 +26,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
               }
             }
           }
@@ -52,6 +48,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -98,27 +95,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj",
         "projectName": "Solution.BS",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.BS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -129,15 +121,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
               }
             }
           }
@@ -150,6 +143,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -181,27 +175,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
         "projectName": "Solution.DAL.EF",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -212,9 +201,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
               }
             }
           }
@@ -227,6 +217,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -258,27 +249,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
         "projectName": "Solution.DAL.Repository",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -289,9 +275,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
               }
             }
           }
@@ -304,6 +291,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -319,27 +307,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
         "projectName": "Solution.DAL",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -350,15 +333,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj"
               },
-              "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-                "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+              "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+                "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
               }
             }
           }
@@ -371,6 +355,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -402,27 +387,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
         "projectName": "Solution.DO",
-        "projectPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
-        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-        "outputPath": "E:\\acruv\\Documents\\source\\repos\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
+        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -433,6 +413,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -444,6 +425,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -459,7 +441,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3036,7 +3036,7 @@ select[multiple].input-lg {
   outline-offset: -2px;
 }
  .btn:hover {
-   color: #FFCB91;
+   color: black;
    text-decoration: none;
  }
 .btn:active,
@@ -4761,7 +4761,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 3;
   color: #fff;
   cursor: default;
-  background-color: darkorange;
+  background-color: gray;
   border-color: darkorange;
 }
 .pagination > .disabled > span,
