@@ -18,7 +18,7 @@ namespace CaprisMedica.UI.Controllers
         // GET: Equipos1
         public async Task<IActionResult> Index()
         {
-            List<Models.Clientes> aux = new List<Models.Clientes>();
+            List<Models.Equipos> aux = new List<Models.Equipos>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(URL);
@@ -28,7 +28,7 @@ namespace CaprisMedica.UI.Controllers
                 if (res.IsSuccessStatusCode)
                 {
                     var auxR = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.Clientes>>(auxR);
+                    aux = JsonConvert.DeserializeObject<List<Models.Equipos>>(auxR);
                 }
                 return View(aux);
             }

@@ -30,7 +30,7 @@ namespace CaprisMedica.UI.Controllers
                 cl.BaseAddress = new Uri(URL);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/Solicitude");
+                HttpResponseMessage res = await cl.GetAsync("api/Usuario");
                 if (res.IsSuccessStatusCode)
                 {
                     var auxR = res.Content.ReadAsStringAsync().Result;
