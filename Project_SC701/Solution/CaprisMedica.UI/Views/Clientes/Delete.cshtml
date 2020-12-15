@@ -2,44 +2,69 @@
 
 @{
     ViewData["Title"] = "Delete";
+    Layout = "Layout2";
 }
 
-<h2>Delete</h2>
-
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Está seguro que desea eliminar el registro?</h3>
 <div>
-    <h4>Clientes</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.ClienteNombre)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.ClienteNombre)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.ClienteCorreo)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.ClienteCorreo)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.ClienteEstado)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.ClienteEstado)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Provincia)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Provincia.ProvinciaNombre)
-        </dd>
-    </dl>
-    
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Delete">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="row clearfix">
+                    >
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="control-label">Id Cliente: </label>
+                            <div class="form-line">
+                                <input asp-for="ClienteId" class="form-control" />
+                                <span asp-validation-for="ClienteId" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="control-label">Nombre: </label>
+                            <div class="form-line">
+                                <input asp-for="ClienteNombre" class="form-control" />
+                                <span asp-validation-for="ClienteNombre" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="control-label">Correo: </label>
+                            <div class="form-line">
+                                <input asp-for="ClienteCorreo" class="form-control" />
+                                <span asp-validation-for="ClienteCorreo" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="control-label">Estado: </label>
+                            <div class="form-line">
+                                <input asp-for="ClienteEstado" class="form-control" />
+                                <span asp-validation-for="ClienteEstado" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="ClienteId" />
-        <input type="submit" value="Delete" class="btn btn-default" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Delete" class="btn bg-grey waves-effect" />
+        <button type="button" class="btn bg-grey waves-effect" onclick="location.href='@Url.Action("Index", "Clientes")'">Regresar</button>
     </form>
 </div>

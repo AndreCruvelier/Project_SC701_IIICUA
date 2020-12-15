@@ -2,46 +2,67 @@
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "Layout2";
 }
 
-<h2>Edit</h2>
+<h2>Editar</h2>
 
-<h4>Clientes</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ClienteId" />
-            <div class="form-group">
-                <label asp-for="ProvinciaId" class="control-label"></label>
-                <select asp-for="ProvinciaId" class="form-control" asp-items="ViewBag.ProvinciaId"></select>
-                <span asp-validation-for="ProvinciaId" class="text-danger"></span>
+
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Id Cliente: </label>
+                        <div class="form-line">
+                            <input asp-for="ClienteId" class="form-control" />
+                            <span asp-validation-for="ClienteId" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Nombre: </label>
+                        <div class="form-line">
+                            <input asp-for="ClienteNombre" class="form-control" />
+                            <span asp-validation-for="ClienteNombre" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Correo: </label>
+                        <div class="form-line">
+                            <input asp-for="ClienteCorreo" class="form-control" />
+                            <span asp-validation-for="ClienteCorreo" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Estado: </label>
+                        <div class="form-line">
+                            <input asp-for="ClienteEstado" class="form-control" />
+                            <span asp-validation-for="ClienteEstado" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label asp-for="ClienteNombre" class="control-label"></label>
-                <input asp-for="ClienteNombre" class="form-control" />
-                <span asp-validation-for="ClienteNombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteCorreo" class="control-label"></label>
-                <input asp-for="ClienteCorreo" class="form-control" />
-                <span asp-validation-for="ClienteCorreo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteEstado" class="control-label"></label>
-                <input asp-for="ClienteEstado" class="form-control" />
-                <span asp-validation-for="ClienteEstado" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Save" class="btn bg-grey waves-effect" />
+                <button type="button" class="btn bg-grey waves-effect" onclick="location.href='@Url.Action("Index", "Clientes")'">Regresar</button>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
