@@ -189,11 +189,11 @@ namespace CaprisMedica.UI.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__Equipo_X___depar__5EBF139D");
 
-                entity.HasOne(d => d.Equipo)
-                    .WithMany(p => p.EquipoXDepartamento)
-                    .HasForeignKey(d => d.EquipoId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Equipo_X___equip__5DCAEF64");
+              //  entity.HasOne(d => d.Equipo)
+                //    .WithMany(p => p.EquipoXDepartamento)
+                //    .HasForeignKey(d => d.EquipoId)
+                //    .OnDelete(DeleteBehavior.ClientSetNull)
+                //    .HasConstraintName("FK__Equipo_X___equip__5DCAEF64");
             });
 
             modelBuilder.Entity<Equipos>(entity =>
@@ -340,11 +340,11 @@ namespace CaprisMedica.UI.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__Solicitud__emple__6B24EA82");
 
-                entity.HasOne(d => d.Equipo)
-                    .WithMany(p => p.Solicitudes)
-                    .HasForeignKey(d => d.EquipoId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Solicitud__equip__6E01572D");
+                //entity.HasOne(d => d.Equipo)
+                  //  .WithMany(p => p.Solicitudes)
+                   // .HasForeignKey(d => d.EquipoId)
+                   // .OnDelete(DeleteBehavior.ClientSetNull)
+                   // .HasConstraintName("FK__Solicitud__equip__6E01572D");
 
                 entity.HasOne(d => d.Provincia)
                     .WithMany(p => p.Solicitudes)
