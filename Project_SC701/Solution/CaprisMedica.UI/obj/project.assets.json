@@ -9146,11 +9146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
       "projectName": "CaprisMedica.UI",
-      "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
       "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
+      "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",

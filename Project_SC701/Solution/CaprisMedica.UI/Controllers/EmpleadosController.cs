@@ -13,7 +13,7 @@ namespace CaprisMedica.UI.Controllers
 
     public class EmpleadosController : Controller
     {
-        private string URL = "http://localhost:51780/";
+        string URL = "http://localhost:51780/";
         
         // GET: Empleados1
         public async Task<IActionResult> Index()
@@ -63,7 +63,7 @@ namespace CaprisMedica.UI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TipoId,EmpleadoCedula,EmpleadoNombre,EmpleadoPrimerA,EmpleadoSegundoA,EmpleadoCorreo,EmpleadoEstado")] Empleados empleados)
+        public async Task<IActionResult> Create([Bind("1,EmpleadoCedula,EmpleadoNombre,EmpleadoPrimerA,EmpleadoSegundoA,EmpleadoCorreo,EmpleadoEstado")] Empleados empleados)
         {
             if (ModelState.IsValid)
             {
@@ -74,7 +74,14 @@ namespace CaprisMedica.UI.Controllers
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    HttpResponseMessage res = await cl.GetAsync("api/Empleado");
+                    HttpResponseMessage res = await cl.PostAsync("api/Empleado", byteContent);
+
+                    //cl.BaseAddress = new Uri(URL);
+                    //var content = JsonConvert.SerializeObject(empleados);
+                    //var buffer = System.Text.Encoding.UTF8.GetBytes(content);
+                    //var byteContent = new ByteArrayContent(buffer);
+                    //byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+                    //HttpResponseMessage res = await cl.GetAsync("api/Empleado");
                     if (res.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));
@@ -108,7 +115,7 @@ namespace CaprisMedica.UI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("TipoId,EmpleadoCedula,EmpleadoNombre,EmpleadoPrimerA,EmpleadoSegundoA,EmpleadoCorreo,EmpleadoEstado")] Empleados empleados)
+        public async Task<IActionResult> Edit(string id, [Bind("1,EmpleadoCedula,EmpleadoNombre,EmpleadoPrimerA,EmpleadoSegundoA,EmpleadoCorreo,EmpleadoEstado")] Empleados empleados)
         {
             if (id != empleados.EmpleadoCedula)
             {

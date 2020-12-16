@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ree5EjAJe+sR9yedsridcHQMMMm5VGavq6lux3TuLfMbFUNrzDfAZAbgANGGI4ZBrXKwn7TwaiuLsIVYiV1gNg==",
+  "dgSpecHash": "K47Pk4Z9fmNDsmMBmIsy7OH00RA6/bgqq0xxk7EvY0ejBJvxh6E3vEB5J20KE9EoVoxeu4qjJjnPldSm+xJVhQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+  "projectFilePath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acruv\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\acruv\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

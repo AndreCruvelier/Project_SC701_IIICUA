@@ -9234,11 +9234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
+      "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
       "projectName": "Solution.API",
-      "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
+      "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\Solution.API.csproj",
       "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\obj\\",
+      "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9255,14 +9255,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
-              "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.BS\\Solution.BS.csproj"
             },
-            "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-              "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
             },
-            "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-              "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
             }
           }
         }

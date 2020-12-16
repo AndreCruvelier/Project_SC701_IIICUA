@@ -53,6 +53,11 @@ namespace Solution.DAL.Repository
             return dBContext.Set<T>().Find(id);
         }
 
+        public T GetOneById(string id)
+        {
+            return dBContext.Set<T>().Find(id);
+        }
+
         public void Insert(T entity)
         {
             if (dBContext.Entry<T>(entity).State == EntityState.Detached)

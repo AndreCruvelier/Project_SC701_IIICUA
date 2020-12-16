@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+      "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
       "projectName": "Solution.DO",
-      "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+      "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
       "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
+      "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",

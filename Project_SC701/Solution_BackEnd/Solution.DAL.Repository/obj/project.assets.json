@@ -5742,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+      "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
       "projectName": "Solution.DAL.Repository",
-      "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+      "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
       "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\obj\\",
+      "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5763,8 +5763,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-              "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
             }
           }
         }

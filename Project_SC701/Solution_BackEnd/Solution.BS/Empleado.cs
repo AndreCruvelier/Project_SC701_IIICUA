@@ -2,6 +2,7 @@
 
 using Solution.DAL.EF;
 using Solution.DO.Interfaces;
+using Solution.DO.Objects;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,7 +27,12 @@ namespace Solution.BS
             return new Solution.DAL.Empleado(_solutionDBContext).GetAll();
         }
 
-        public data.Empleados GetOneById(int id)
+        public data.Empleados GetOneById(string id)
+        {
+            return new Solution.DAL.Empleado(_solutionDBContext).GetOneById(id);
+        }
+
+        public Empleados GetOneById(int id)
         {
             return new Solution.DAL.Empleado(_solutionDBContext).GetOneById(id);
         }

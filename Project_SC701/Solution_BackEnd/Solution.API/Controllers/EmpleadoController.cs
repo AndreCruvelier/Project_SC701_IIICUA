@@ -12,7 +12,7 @@ namespace Solution.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmpleadoController : ControllerBase
+    public class EmpleadoController : Controller
     {
         private readonly SolutionDBContext _context;
 
@@ -25,14 +25,14 @@ namespace Solution.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Empleados>>> GetEmpleado()
         {
-            return await _context.Empleados.ToListAsync();
+            return new Solution.BS.Empleado(_context).GetAll().ToList();//Este cambia
         }
 
         // GET: api/Empleado/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Empleados>> GetEmpleado(string id)
         {
-            var Empleado = await _context.Empleados.FindAsync(id);
+            var Empleado = new Solution.BS.Empleado(_context).GetOneById(id);//Este cambia
 
             if (Empleado == null)
             {
@@ -46,22 +46,22 @@ namespace Solution.API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEmpleado(String id, Empleados Empleado)
+        public async Task<IActionResult> PutEmpleado(string id, Empleados Empleado)
         {
             if (id != Empleado.EmpleadoCedula)
             {
                 return BadRequest();
             }
 
-            _context.Entry(Empleado).State = EntityState.Modified;
+            new Solution.BS.Empleado(_context).Update(Empleado);//Este cambia
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (Exception)
             {
-                if (Empleado == null)
+                if (!EmpleadoExists(id))
                 {
                     return NotFound();
                 }
@@ -78,33 +78,31 @@ namespace Solution.API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Empleados>> PostEmpleado(Empleados Empleado)
+        public async Task<ActionResult<Empleados>> PostEmpleado(Empleados empleado)
         {
-            _context.Empleados.Add(Empleado);
-            await _context.SaveChangesAsync();
+            new Solution.BS.Empleado(_context).Insert(empleado);//Este cambia
 
-            return CreatedAtAction("GetEmpleado", new { id = Empleado.EmpleadoCedula }, Empleado);
+            return CreatedAtAction("GetEmpleado", new { id = empleado.EmpleadoCedula }, empleado);
         }
 
         // DELETE: api/Empleado/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Empleados>> DeleteEmpleado(String id)
+        public async Task<ActionResult<Empleados>> DeleteEmpleado(string id)
         {
-            var Empleado = await _context.Empleados.FindAsync(id);
+            var Empleado = new Solution.BS.Empleado(_context).GetOneById(id);//Este cambia
             if (Empleado == null)
             {
                 return NotFound();
             }
 
-            _context.Empleados.Remove(Empleado);
-            await _context.SaveChangesAsync();
+            new Solution.BS.Empleado(_context).Delete(Empleado);//Este cambia
 
             return Empleado;
         }
 
-        private bool EmpleadoExists(String id)
+        private bool EmpleadoExists(string id)
         {
-            return _context.Empleados.Any(e => e.EmpleadoCedula == id);
+            return (new Solution.BS.Empleado(_context).GetOneById(id) != null);//Este cambia
         }
     }
 }

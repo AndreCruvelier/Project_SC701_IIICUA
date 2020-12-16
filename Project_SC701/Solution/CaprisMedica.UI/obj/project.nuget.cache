@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UoGDSP7/A8MFQsN/w07/rK+CnBDzdxIws0l3klj81VJuxv2x1knRT8MIf/bCu4QJ8BEB2SfXOPiCsvG+Xns0WQ==",
+  "dgSpecHash": "EKU74JY03Hi5KJdJOpPYSAlEKgI3oVD5ygumr+xN13QgE2U/jkuOwjPvNCkRyGR7W8CbdzGT3wKS+9ka548cmw==",
   "success": true,
-  "projectFilePath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+  "projectFilePath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acruv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.10\\microsoft.aspnetcore.cryptography.internal.3.1.10.nupkg.sha512",
     "C:\\Users\\acruv\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.10\\microsoft.aspnetcore.cryptography.keyderivation.3.1.10.nupkg.sha512",

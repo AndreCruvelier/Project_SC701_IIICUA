@@ -89,7 +89,7 @@ namespace CaprisMedica.UI.Controllers
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    HttpResponseMessage res = await cl.GetAsync("api/Solicitude");
+                    HttpResponseMessage res = await cl.PostAsync("api/Solicitude", byteContent);
                     if (res.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));

@@ -13,7 +13,7 @@ namespace CaprisMedica.UI.Controllers
 
     public class ClientesController : Controller
     {
-        private string URL = "http://localhost:51780/";
+        private string URL = "http://localhost:51780";
 
         // GET: Clientes1
         public async Task<IActionResult> Index()

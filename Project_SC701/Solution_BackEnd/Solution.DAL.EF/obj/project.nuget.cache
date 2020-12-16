@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "paebzZfGG1w3bJlTaiZphsdyqdQNwEx4Sck3UlqkaBGzwQqW5s/nynU2JQ4lnLn2UNnVcZKu4r6Wqa8VIpSGUA==",
+  "dgSpecHash": "xdd1v1Btr1OqYSpaMM/WRpXKCwd9LQmzUqBhD8dHr3Q4ff63cvNZoA9uTUPfIVvQ9c5KgMuJNsmgPM5tx5WRfQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
+  "projectFilePath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acruv\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\acruv\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
