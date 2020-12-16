@@ -9141,19 +9141,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dmonge\\.nuget\\packages\\": {}
+    "C:\\Users\\acruv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "projectUniqueName": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
       "projectName": "CaprisMedica.UI",
-      "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
-      "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
+      "projectPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\CaprisMedica.UI.csproj",
+      "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubProjects\\Project_SC701_IIICUA\\Project_SC701\\Solution\\CaprisMedica.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9232,7 +9232,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

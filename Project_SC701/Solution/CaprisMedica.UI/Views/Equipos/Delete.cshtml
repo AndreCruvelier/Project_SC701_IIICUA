@@ -5,7 +5,7 @@
     Layout = "Layout2";
 }
 
-<h3>¿Está seguro que desea eliminar el registro?</h3>
+<h3>Estado del Registro</h3>
 <div>
     <hr />
     <div class="row">
@@ -29,7 +29,7 @@
                         <div class="form-group">
                             <label class="control-label">Nombre: </label>
                             <div class="form-line">
-                                <input asp-for="EquipoNombre" class="form-control" />
+                                <input asp-for="EquipoNombre" class="form-control" disabled/>
                                 <span asp-validation-for="EquipoNombre" class="text-danger"></span>
                             </div>
                         </div>
@@ -40,7 +40,10 @@
                         <div class="form-group">
                             <label class="control-label">Estado: </label>
                             <div class="form-line">
-                                <input asp-for="EquipoEstado" class="form-control" />
+                                <select asp-for="EquipoEstado" class="form-control">
+                                    <option>Activo</option>
+                                    <option>Inactivo</option>
+                                </select>
                                 <span asp-validation-for="EquipoEstado" class="text-danger"></span>
                             </div>
                         </div>

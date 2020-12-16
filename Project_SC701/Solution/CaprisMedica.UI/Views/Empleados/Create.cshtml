@@ -19,7 +19,10 @@
                     <div class="form-group">
                         <label class="control-label">Tipo de Cédula</label>
                         <div class="form-line">
-                            <select asp-for="TipoId" class="form-control" asp-items="ViewBag.TipoId"></select>
+                            <select asp-for="TipoId" class="form-control" asp-items="ViewBag.TipoId">
+                                <option>Física</option>
+                                <option>Jurídica</option>
+                            </select>
                         </div>
                     </div>
                 </div>
