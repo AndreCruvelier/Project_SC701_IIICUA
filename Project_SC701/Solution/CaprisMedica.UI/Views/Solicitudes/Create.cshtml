@@ -2,99 +2,157 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "Layout2";
 }
 
-<h2>Create</h2>
 
-<h4>Solicitudes</h4>
+<h2>Agregar Solicitud</h2>
+
 <hr />
+
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="ClienteId" class="control-label"></label>
-                <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
+
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Id Solictud: </label>
+                        <div class="form-line">
+                            <input asp-for="SolicitudId" class="form-control" disabled />
+                            <span asp-validation-for="SolicitudId" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Provincia: </label>
+                        <div class="form-line">
+                            <select asp-for="Provincia" class="form-control" asp-items="ViewBag.Provincia"></select>
+                            <span asp-validation-for="Provincia" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Cliente: </label>
+                        <div class="form-line">
+                            <select asp-for="Cliente" class="form-control" asp-items="ViewBag.Cliente"></select>
+                            <span asp-validation-for="Cliente" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Departamento: </label>
+                        <div class="form-line">
+                            <select asp-for="Departamento" class="form-control" asp-items="ViewBag.Departamento"></select>
+                            <span asp-validation-for="Departamento" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Equipo: </label>
+                        <div class="form-line">
+                            <select asp-for="Equipo" class="form-control" asp-items="ViewBag.Equipo"></select>
+                            <span asp-validation-for="Equipo" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Encargado: </label>
+                        <div class="form-line">
+                            <select asp-for="EmpleadoCedula" class="form-control" asp-items="ViewBag.EmpleadoCedula"></select>
+                            <span asp-validation-for="EmpleadoCedula" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Tipo de Trabajo: </label>
+                        <div class="form-line">
+                            <select asp-for="TipoTrabajo" class="form-control" asp-items="ViewBag.TipoTrabajo"></select>
+                            <span asp-validation-for="TipoTrabajo" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Motivo: </label>
+                        <div class="form-line">
+                            <input asp-for="SolicitudMotivo" class="form-control" />
+                            <span asp-validation-for="SolicitudMotivo" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Hora de Entrada: </label>
+                        <div class="form-line">
+                            <input asp-for="HoraEntrada" class="form-control" />
+                            <span asp-validation-for="HoraEntrada" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Hora de Salida: </label>
+                        <div class="form-line">
+                            <input asp-for="HoraSalida" class="form-control" />
+                            <span asp-validation-for="HoraSalida" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Tipo de Hora: </label>
+                        <div class="form-line">
+                            <input asp-for="TipoHora" class="form-control" />
+                            <span asp-validation-for="TipoHora" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Cantidad de horas: </label>
+                        <div class="form-line">
+                            <input asp-for="CantidadHoras" class="form-control" />
+                            <span asp-validation-for="CantidadHoras" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label asp-for="EmpleadoCedula" class="control-label"></label>
-                <select asp-for="EmpleadoCedula" class ="form-control" asp-items="ViewBag.EmpleadoCedula"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoTrabajoId" class="control-label"></label>
-                <select asp-for="TipoTrabajoId" class ="form-control" asp-items="ViewBag.TipoTrabajoId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="DepartamentoId" class="control-label"></label>
-                <select asp-for="DepartamentoId" class ="form-control" asp-items="ViewBag.DepartamentoId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="EquipoId" class="control-label"></label>
-                <select asp-for="EquipoId" class ="form-control" asp-items="ViewBag.EquipoId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="SolicitudJefatura" class="control-label"></label>
-                <input asp-for="SolicitudJefatura" class="form-control" />
-                <span asp-validation-for="SolicitudJefatura" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaReporte" class="control-label"></label>
-                <input asp-for="FechaReporte" class="form-control" />
-                <span asp-validation-for="FechaReporte" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HoraEntrada" class="control-label"></label>
-                <input asp-for="HoraEntrada" class="form-control" />
-                <span asp-validation-for="HoraEntrada" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HoraSalida" class="control-label"></label>
-                <input asp-for="HoraSalida" class="form-control" />
-                <span asp-validation-for="HoraSalida" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoHora" class="control-label"></label>
-                <input asp-for="TipoHora" class="form-control" />
-                <span asp-validation-for="TipoHora" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CantidadHoras" class="control-label"></label>
-                <input asp-for="CantidadHoras" class="form-control" />
-                <span asp-validation-for="CantidadHoras" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SolicitudMotivo" class="control-label"></label>
-                <input asp-for="SolicitudMotivo" class="form-control" />
-                <span asp-validation-for="SolicitudMotivo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MotivoDetalle" class="control-label"></label>
-                <input asp-for="MotivoDetalle" class="form-control" />
-                <span asp-validation-for="MotivoDetalle" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SolicitudRepuestos" class="control-label"></label>
-                <input asp-for="SolicitudRepuestos" class="form-control" />
-                <span asp-validation-for="SolicitudRepuestos" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EquipoDetenido" class="control-label"></label>
-                <input asp-for="EquipoDetenido" class="form-control" />
-                <span asp-validation-for="EquipoDetenido" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProvinciaId" class="control-label"></label>
-                <select asp-for="ProvinciaId" class ="form-control" asp-items="ViewBag.ProvinciaId"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn bg-grey waves-effect" />
+                <button type="button" class="btn bg-grey waves-effect" onclick="location.href='@Url.Action("Index", "Solicitudes")'">Regresar</button>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

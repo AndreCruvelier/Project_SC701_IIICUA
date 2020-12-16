@@ -2,40 +2,56 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "Layout2";
 }
 
-<h2>Index</h2>
+<div class="block-header">
+    <h1>Lista de Departamentos</h1>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.DeparatamentoNombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DepartamentoEstado)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DeparatamentoNombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DepartamentoEstado)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.DepartamentoId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DepartamentoId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DepartamentoId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="row">
+    <div class="col-xs-12">
+        <button type="button" class="btn bg-grey waves-effect" onclick="location.href='@Url.Action("Create", "Departamento")'">Agregar Departamento</button><br /><br />
+    </div>
+</div>
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover js-basic-example dataTable" id="Departamento">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>Estado</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DepartamentoId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DeparatamentoNombre)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DepartamentoEstado)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.DepartamentoId">Editar</a> |
+                                        <a asp-action="Delete" asp-route-id="@item.DepartamentoId">Eliminar</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
