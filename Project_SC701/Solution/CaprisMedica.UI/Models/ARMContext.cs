@@ -67,11 +67,11 @@ namespace CaprisMedica.UI.Models
 
                 entity.Property(e => e.ProvinciaId).HasColumnName("provinciaId");
 
-                entity.HasOne(d => d.Provincia)
-                    .WithMany(p => p.Clientes)
-                    .HasForeignKey(d => d.ProvinciaId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Clientes__provin__4CA06362");
+            //    entity.HasOne(d => d.Provincia)
+            //        .WithMany(p => p.Clientes)
+            //        .HasForeignKey(d => d.ProvinciaId)
+            //        .OnDelete(DeleteBehavior.ClientSetNull)
+            //        .HasConstraintName("FK__Clientes__provin__4CA06362");
             });
 
             modelBuilder.Entity<DepartamentoXCliente>(entity =>
@@ -89,11 +89,11 @@ namespace CaprisMedica.UI.Models
 
                 entity.Property(e => e.ClienteId).HasColumnName("clienteId");
 
-                entity.HasOne(d => d.Cliente)
-                    .WithMany(p => p.DepartamentoXCliente)
-                    .HasForeignKey(d => d.ClienteId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Departame__clien__534D60F1");
+            //    entity.HasOne(d => d.Cliente)
+            //        .WithMany(p => p.DepartamentoXCliente)
+            //        .HasForeignKey(d => d.ClienteId)
+            //        .OnDelete(DeleteBehavior.ClientSetNull)
+            //        .HasConstraintName("FK__Departame__clien__534D60F1");
 
                 entity.HasOne(d => d.Departamento)
                     .WithOne(p => p.DepartamentoXCliente)
@@ -322,11 +322,11 @@ namespace CaprisMedica.UI.Models
 
                 entity.Property(e => e.TipoTrabajoId).HasColumnName("tipoTrabajoId");
 
-                entity.HasOne(d => d.Cliente)
-                    .WithMany(p => p.Solicitudes)
-                    .HasForeignKey(d => d.ClienteId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Solicitud__clien__6A30C649");
+                //entity.HasOne(d => d.Cliente)
+                 //   .WithMany(p => p.Solicitudes)
+                 //   .HasForeignKey(d => d.ClienteId)
+                 //   .OnDelete(DeleteBehavior.ClientSetNull)
+                 //   .HasConstraintName("FK__Solicitud__clien__6A30C649");
 
                 entity.HasOne(d => d.Departamento)
                     .WithMany(p => p.Solicitudes)

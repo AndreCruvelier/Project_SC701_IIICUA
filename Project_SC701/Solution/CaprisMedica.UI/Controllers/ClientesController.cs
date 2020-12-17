@@ -64,18 +64,19 @@ namespace CaprisMedica.UI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ClienteId,ProvinciaId,ClienteNombre,ClienteCorreo,ClienteEstado")] Clientes clientes)
+        public async Task<IActionResult> Create([Bind("ProvinciaId,ClienteNombre,ClienteCorreo,ClienteEstado")] Clientes clientes)
         {
             if (ModelState.IsValid)
             {
                 using (var cl = new HttpClient())
                 {
                     cl.BaseAddress = new Uri(URL);
+                    clientes.ProvinciaId = 1;
                     var content = JsonConvert.SerializeObject(clientes);
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    HttpResponseMessage res = await cl.GetAsync("api/Cliente");
+                    HttpResponseMessage res = await cl.PostAsync("api/Cliente",byteContent);
                     if (res.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));
