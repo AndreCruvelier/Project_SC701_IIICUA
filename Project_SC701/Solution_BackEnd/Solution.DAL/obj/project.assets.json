@@ -5854,19 +5854,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dmonge\\.nuget\\packages\\": {}
+    "C:\\Users\\acruv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
+      "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
       "projectName": "Solution.DAL",
-      "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
-      "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\obj\\",
+      "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\Solution.DAL.csproj",
+      "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
+      "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5880,14 +5880,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
-              "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.EF\\Solution.DAL.EF.csproj"
             },
-            "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
-              "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj"
             },
-            "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
-              "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
+            "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+              "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj"
             }
           }
         }
@@ -5932,7 +5932,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

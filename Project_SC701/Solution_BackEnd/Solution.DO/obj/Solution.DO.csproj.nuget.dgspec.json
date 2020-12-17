@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {}
+    "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
+    "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+        "projectUniqueName": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
         "projectName": "Solution.DO",
-        "projectPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
-        "packagesPath": "C:\\Users\\dmonge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmonge\\Desktop\\PROGRA5\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
+        "projectPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\Solution.DO.csproj",
+        "packagesPath": "C:\\Users\\acruv\\.nuget\\packages\\",
+        "outputPath": "D:\\AzureWorkspace\\Project_SC701_IIICUA\\Project_SC701\\Solution_BackEnd\\Solution.DO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dmonge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
