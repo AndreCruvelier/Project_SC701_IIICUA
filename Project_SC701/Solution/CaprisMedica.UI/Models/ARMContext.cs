@@ -334,25 +334,12 @@ namespace CaprisMedica.UI.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__Solicitud__depar__6D0D32F4");
 
-<<<<<<< HEAD
                 //entity.HasOne(d => d.EmpleadoCedulaNavigation)
                 //    .WithMany(p => p.Solicitudes)
                 //    .HasForeignKey(d => d.EmpleadoCedula)
                 //    .OnDelete(DeleteBehavior.ClientSetNull)
                 //    .HasConstraintName("FK__Solicitud__emple__6B24EA82");
-=======
-                entity.HasOne(d => d.EmpleadoCedulaNavigation)
-                    .WithMany(p => p.Solicitudes)
-                    .HasForeignKey(d => d.EmpleadoCedula)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Solicitud__emple__6B24EA82");
->>>>>>> ea234605ebd142497958d9077addf931df52baf2
 
-                //entity.HasOne(d => d.Equipo)
-                  //  .WithMany(p => p.Solicitudes)
-                   // .HasForeignKey(d => d.EquipoId)
-                   // .OnDelete(DeleteBehavior.ClientSetNull)
-                   // .HasConstraintName("FK__Solicitud__equip__6E01572D");
 
                 entity.HasOne(d => d.Provincia)
                     .WithMany(p => p.Solicitudes)

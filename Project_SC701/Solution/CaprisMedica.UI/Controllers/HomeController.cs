@@ -18,13 +18,13 @@ namespace CaprisMedica.UI.Controllers
         {
             _logger = logger;
         }
-        //[Authorize]
+        [Authorize]
         public IActionResult Index()
         {
           
             return View();
         }
-        //[Authorize]
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
