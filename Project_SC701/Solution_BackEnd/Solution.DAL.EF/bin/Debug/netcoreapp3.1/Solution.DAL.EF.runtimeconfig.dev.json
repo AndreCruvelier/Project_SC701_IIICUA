@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\dmonge\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dmonge\\.nuget\\packages"
+      "C:\\Users\\acruv\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\acruv\\.nuget\\packages"
     ]
   }
 }

@@ -1,6 +1,7 @@
 ﻿using Solution.DAL.EF;
 using Solution.DAL.Repository;
 using Solution.DO.Interfaces;
+using Solution.DO.Objects;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,9 +27,14 @@ namespace Solution.DAL
             return _repository.GetAll();
         }
 
-        public data.Empleados GetOneById(int id)
+        public data.Empleados GetOneById(string id)
         {
             return _repository.GetOneById(id);
+        }
+
+        public Empleados GetOneById(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public void Insert(data.Empleados t)

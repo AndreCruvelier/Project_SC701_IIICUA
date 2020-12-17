@@ -7,7 +7,7 @@ namespace CaprisMedica.UI.Models
     {
         public Empleados()
         {
-            Solicitudes = new HashSet<Solicitudes>();
+            //Solicitudes = new HashSet<Solicitudes>();
         }
 
         public int? TipoId { get; set; }
@@ -18,7 +18,7 @@ namespace CaprisMedica.UI.Models
         public string EmpleadoCorreo { get; set; }
         public string EmpleadoEstado { get; set; }
 
-        public virtual TipoCedula Tipo { get; set; }
-        public virtual ICollection<Solicitudes> Solicitudes { get; set; }
+        //public virtual TipoCedula Tipo { get; set; }
+        //public virtual ICollection<Solicitudes> Solicitudes { get; set; }
     }
 }

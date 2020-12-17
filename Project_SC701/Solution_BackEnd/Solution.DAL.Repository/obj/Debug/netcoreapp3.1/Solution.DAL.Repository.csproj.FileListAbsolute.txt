@@ -82,3 +82,17 @@ C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repo
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb

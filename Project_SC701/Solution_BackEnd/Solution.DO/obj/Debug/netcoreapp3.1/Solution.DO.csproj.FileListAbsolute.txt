@@ -52,3 +52,12 @@ C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DO\obj\D
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.csproj.CoreCompileInputs.cache
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.dll
 C:\Users\dmonge\Desktop\PROGRA5\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\bin\Debug\netcoreapp3.1\Solution.DO.deps.json
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.AssemblyInfoInputs.cache
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.AssemblyInfo.cs
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.csproj.CoreCompileInputs.cache
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.dll
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\AzureWorkspace\Project_SC701_IIICUA\Project_SC701\Solution_BackEnd\Solution.DO\obj\Debug\netcoreapp3.1\Solution.DO.csprojAssemblyReference.cache
