@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CaprisMedica.UI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -15,6 +16,7 @@ namespace CaprisMedica.UI.Controllers
         private string URL = "http://localhost:51780/";
 
         // GET: Departamentos
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             List<Models.Departamentos> aux = new List<Models.Departamentos>();
@@ -61,7 +63,7 @@ namespace CaprisMedica.UI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DepartamentoId,DeparatamentoNombre,DepartamentoEstado")] Departamentos departamentos)
+        public async Task<IActionResult> Create([Bind("DeparatamentoNombre,DepartamentoEstado")] Departamentos departamentos)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +74,7 @@ namespace CaprisMedica.UI.Controllers
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    HttpResponseMessage res = await cl.GetAsync("api/Departamento");
+                    HttpResponseMessage res = await cl.PostAsync("api/Departamento",byteContent);
                     if (res.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));

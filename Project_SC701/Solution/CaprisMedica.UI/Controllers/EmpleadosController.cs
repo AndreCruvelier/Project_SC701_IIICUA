@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CaprisMedica.UI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -14,8 +15,9 @@ namespace CaprisMedica.UI.Controllers
     public class EmpleadosController : Controller
     {
         private string URL = "http://localhost:51780/";
-        
+
         // GET: Empleados1
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             List<Models.Empleados> aux = new List<Models.Empleados>();

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CaprisMedica.UI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CaprisMedica.UI.Controllers
 {
@@ -17,7 +18,7 @@ namespace CaprisMedica.UI.Controllers
         {
             _context = context;
         }
-
+        //[Authorize]
         // GET: Usuarios1
         public async Task<IActionResult> Index()
         {

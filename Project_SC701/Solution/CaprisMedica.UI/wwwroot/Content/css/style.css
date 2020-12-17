@@ -1896,7 +1896,7 @@
     color: #fff !important; }
 
 .bg-cyan {
-  background-color: #00BCD4 !important;
+  background-color: darkcyan !important;
   color: #fff; }
   .bg-cyan .content .text,
   .bg-cyan .content .number {
@@ -7784,7 +7784,7 @@ fieldset[disabled] .form-control {
 
 /* Login Page ================================== */
 .login-page {
-    background-color: #70D2F9;
+    background-color: lightgray;
     padding-left: 0;
     max-width: 360px;
     margin: 5% auto;
@@ -7799,7 +7799,7 @@ fieldset[disabled] .form-control {
     text-decoration: none;
     color: #00BCD4; }
   .login-page .login-box .logo {
-    background-color: #e49b3b;
+    background-color: darkcyan;
   }
     .login-page .login-box .logo a {
       font-size: 36px;
@@ -7849,7 +7849,7 @@ fieldset[disabled] .form-control {
 
 /* Forgot Password Page ======================== */
 .fp-page {
-    background-color: #70D2F9;
+    background-color: lightgray;
     padding-left: 0;
     max-width: 360px;
     margin: 5% auto;
@@ -7864,7 +7864,7 @@ fieldset[disabled] .form-control {
     text-decoration: none;
     color: #00BCD4; }
     .fp-page .fp-box .logo {
-        background-color: #e49b3b;
+        background-color: darkcyan;
     }
     .fp-page .fp-box .logo a {
       font-size: 36px;
